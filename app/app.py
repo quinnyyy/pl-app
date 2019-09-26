@@ -136,8 +136,11 @@ class App(ChrisApp):
         """
         Define the code to be run by this plugin app.
         """
-        print(Gstr_title)
-        print('Version: %s' % self.get_version())
+        print("hello world!")
+        print("inputdir is: " + options.inputdir)
+        print("outputdir is: " + options.outputdir)
+        #print(Gstr_title)
+        #print('Version: %s' % self.get_version())
 
     def show_man_page(self):
         """
